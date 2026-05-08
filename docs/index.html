@@ -1,11 +1,281 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio - PEDRO AUGUSTO GOMES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Pedro Augusto Gomes</title>
+    <link rel="icon" type="image/png" href="assets/app.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
 </head>
 <body>
-    <h1>Bem vindo ao Portfólio de PEDRO AUGUSTO GOMES</h1>
+    <div class="matrix-bg"></div>
+
+    <div class="container">
+        <!-- HEADER -->
+        <div class="terminal-header">
+            <span class="terminal-dot dot-red"></span>
+            <span class="terminal-dot dot-yellow"></span>
+            <span class="terminal-dot dot-green"></span>
+            <span class="terminal-title" data-key="terminalTitle">portfolio.dev — bash — 80x24</span>
+            <div class="language-selector" style="margin-left: auto;">
+                <button class="lang-button active" onclick="switchLanguage('pt')">PT</button>
+                <button class="lang-button" onclick="switchLanguage('en')">EN</button>
+            </div>
+        </div>
+
+        <div class="terminal-content">
+            <!-- Section 1: About Me -->
+            <section class="section">
+                <h2 class="section-title" data-key="aboutme"></h2>
+                <div class="about-container">
+                    <img src="assets/Eu.jpeg" alt="Foto de perfil" class="profile-pic">
+                    <div class="about-text">
+                        <p class="code-line">
+                            <span class="keyword">const</span> <span class="variable">developer</span> = {
+                        </p>
+                        
+                        <p class="code-line" style="margin-left: 2rem;">
+                            <span class="string" data-key="nameLabel"></span>: <span class="string" data-key="name"></span>,
+                        </p>
+
+                        <p class="code-line" style="margin-left: 2rem;">
+                            <span class="string" data-key="yearLabel"></span>: <span class="variable" data-key="age"></span>,
+                        </p>
+
+                        <p class="code-line" style="margin-left: 2rem;">
+                            <span class="string" data-key="formationLabel"></span>: [
+                        </p>
+
+                        <p class="code-line" style="margin-left: 4rem;">
+                            {
+                        </p>
+                        <p class="code-line" style="margin-left: 5rem;">
+                            <span class="string" data-key="formation1"></span>
+                        </p>
+                        <p class="code-line" style="margin-left: 4rem;">
+                            },
+                        </p>
+
+                        <p class="code-line" style="margin-left: 4rem;">
+                            {
+                        </p>
+                        <p class="code-line" style="margin-left: 5rem;">
+                            <span class="string" data-key="anotherFormation"></span>
+                        </p>
+                        <p class="code-line" style="margin-left: 4rem;">
+                            }
+                        </p>
+
+                        <p class="code-line" style="margin-left: 2rem;">],</p>
+
+                        <p class="code-line" style="margin-left: 2rem;">
+                            <span class="string">bio</span>: <span class="string" data-key="bioText"></span>
+                        </p>
+                        <p class="code-line">};</p>
+                        <br>
+                        <p class="code-line">
+                            <span class="keyword">console</span>.<span class="function">log</span>(<span class="string" data-key="welcomeMessage"></span>);
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- projetos-->
+            <section class="section">
+                <h2 class="section-title" data-key="projectsTitle"></h2>
+                <div class="projects-grid">
+                    
+                    <!-- ABP 1 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title" data-key="project1Title"></h3>
+                            <span class="project-type" data-key="academic"></span>
+                        </div>
+                        <p class="project-description" data-key="project1Desc">
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Sequelize</span>
+                        </div>
+                        <a href="https://github.com/PedrinhoDBR/ABP-Undefined" target="_blank" class="project-link">
+                            <span class="lang-text" data-key="GitButton">Ver no GitHub</span>
+                        </a>
+                    </div>
+
+                    <!-- ABP 2 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title" data-key="project2Title"></h3>
+                            <span class="project-type" data-key="academic"></span>
+                        </div>
+                        <p class="project-description" data-key="project2Desc">
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <a href="https://github.com/PedrinhoDBR/2DSM-ABP-UNDEFINED" target="_blank" class="project-link">
+                            <span class="lang-text" data-key="GitButton">Ver no GitHub</span>
+                        </a>
+                    </div>
+                    <!-- Projeto Pessoal -->
+                    <!--
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title" data-key="project3Title"></h3>
+                            <span class="project-type" data-key="personal"></span>
+                        </div>
+                        <p class="project-description" data-key="project3Desc">
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Commander.js</span>
+                        </div>
+                    </div>-->
+                </div>
+            </section>
+
+            <!-- Section 3: Skills & Contact -->
+            <section class="section">
+                <h2 class="section-title" data-key="skillsTitle"></h2>
+                <div class="skills-contact-grid">
+                    <!-- Skills -->
+                    <div>
+                        <h3 style="color: var(--accent-secondary); margin-bottom: 1rem; font-family: 'JetBrains Mono', monospace;" data-key="skillsSubtitle">// Habilidades Técnicas</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=ts" alt="TypeScript" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">TypeScript</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=js" alt="JavaScript" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">JavaScript</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=react" alt="React" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">React</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=html" alt="HTML" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">HTML</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">Node.js</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=python" alt="Python" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">Python</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=flask" alt="Flask" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">Flask</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">PostgreSQL</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=docker" alt="Docker" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">Docker</div>
+                                
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <img loading="lazy" src="https://skillicons.dev/icons?i=git" alt="GIT" class="skill-icon" />
+                                <div>
+                                    <div class="skill-name">GIT</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact -->
+                    <div>
+                        <h3 style="color: var(--accent-secondary); margin-bottom: 1rem; font-family: 'JetBrains Mono', monospace;" data-key="contactSubtitle">// Contato</h3>
+                        <div class="contact-list">
+                            <a href="mailto:pedrindbr2@gmail.com" class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <div>
+                                    <div class="contact-label">Email</div>
+                                    <div class="contact-value">pedrindbr2@gmail.com</div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/PedrinhoDBR" class="contact-item" target="_blank">
+                                <span class="contact-icon">💻</span>
+                                <div>
+                                    <div class="contact-label">GitHub</div>
+                                    <div class="contact-value">github.com/PedrinhoDBR</div>
+                                </div>
+                            </a>
+                            <a href="https://linkedin.com/in/pedro-augusto-gomes/" class="contact-item" target="_blank">
+                                <span class="contact-icon">💼</span>
+                                <div>
+                                    <div class="contact-label">LinkedIn</div>
+                                    <div class="contact-value">linkedin.com/in/pedro-augusto-gomes/</div>
+                                </div>
+                            </a>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <div class="contact-label" data-key="locationlabel">Localização</div>
+                                    <div class="contact-value">Jacareí, SP - Brasil</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <span class="contact-icon">🌎</span>
+                                <div>
+                                    <div class="contact-label" data-key="languageslabel">Idiomas</div>
+                                    <div class="contact-value" data-key="languages">Português, Inglês</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="command-line">
+                <span class="prompt">pedro@portifolio:~$</span> <span class="lang-text" data-key="thanksCommand">echo "Obrigado pela visita!"</span><span class="cursor"></span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="copyright">
+                    © <span class="year">2026</span> <span class="lang-text" data-key="rights">Todos os direitos reservados</span> — <span class="lang-text" data-key="name"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
