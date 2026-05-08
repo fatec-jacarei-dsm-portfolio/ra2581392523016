@@ -13,14 +13,14 @@ function switchLanguage(lang) {
             button.classList.add('active');
         }
     });
-    
+
     commandText = ' ' + translations[lang].thanksCommand;
     resetTypingAnimation();
 
     localStorage.setItem('lang', lang);
 }
 
-fetch('/docs/locale/translations.json')
+fetch('./docs/locale/translations.json')
   .then(res => res.json())
   .then(data => {
       window.translations = data;
