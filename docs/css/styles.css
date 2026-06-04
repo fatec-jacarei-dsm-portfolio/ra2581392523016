@@ -237,16 +237,19 @@ body {
 
 .project-header {
     display: flex;
-    justify-content: space-between;
-    align-items: start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
     margin-bottom: 1rem;
 }
 
 .project-title {
+    flex: 1 1 100%;
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.1rem;
     color: var(--accent-secondary);
     font-weight: 700;
+    margin-bottom: 0.25rem;
 }
 
 .project-type {
@@ -256,6 +259,7 @@ body {
     border-radius: 4px;
     font-size: 0.75rem;
     border: 1px solid var(--accent-primary);
+    white-space: nowrap;
 }
 
 .project-description {

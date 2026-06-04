@@ -22,10 +22,12 @@ const translations = {
     personal: "PESSOAL",
 
     project1Title: "AgriRS Lab",
-    project1Desc: "Desenvolvimento de um website para centralizar e divulgar as informações do Laboratório de Sensoriamento Remoto Agrícola do INPE, promovendo maior visibilidade às pesquisas, projetos e iniciativas desenvolvidas pelo laboratório. O site apresenta uma interface moderna e responsiva, facilitando o acesso a conteúdos relevantes para pesquisadores, estudantes e interessados na área de sensoriamento remoto agrícola.",
+    project1Semester: "1º semestre",
+    project1Desc: "Desenvolvimento de um website para centralizar e divulgar as informações do Laboratório de Sensoriamento Remoto Agrícola do INPE, promovendo maior visibilidade às pesquisas, projetos e iniciativas desenvolvidas pelo laboratório. O projeto foi realizado no 1º semestre da faculdade, onde atuei como Product Owner. Fui responsável por priorizar requisitos, planejar entregas em sprints, coletar feedback de stakeholders e garantir o alinhamento entre a visão do produto e a implementação. Também cuidei da integração com o banco de dados para manter o frontend sincronizado com os dados do laboratório.",
 
     project2Title: "Autoatendimento da Secretaria Acadêmica da Fatec Jacareí",
-    project2Desc: "O projeto consiste no desenvolvimento de uma aplicação web de autoatendimento baseada em um chatbot conversacional, com o objetivo de auxiliar alunos e interessados externos nas principais dúvidas relacionadas à secretaria acadêmica da Fatec Jacareí. A plataforma permitirá consultas diretas e navegação guiada por menus estruturados, fornecendo respostas objetivas, padronizadas e verificáveis sobre temas como calendário acadêmico, horários de aulas, estágio supervisionado, dispensa de disciplinas e estrutura curricular dos cursos. Além disso, o sistema apresentará evidências extraídas de documentos oficiais, como regulamentos e manuais institucionais, garantindo maior confiabilidade nas informações e reduzindo a sobrecarga operacional da secretaria acadêmica.",
+    project2Semester: "2º semestre",
+    project2Desc: "O projeto consiste no desenvolvimento de uma aplicação web de autoatendimento baseada em um chatbot conversacional, com o objetivo de auxiliar alunos e interessados externos nas principais dúvidas relacionadas à secretaria acadêmica da Fatec Jacareí. Foi um projeto do 2º semestre, no qual atuei como Scrum Master. Conduzi cerimônias ágeis, removi impedimentos, garanti fluxo de trabalho eficiente e facilitei a comunicação entre a equipe. Também cuidei da integração do frontend com o backend, garantindo que as APIs fossem consumidas corretamente e as funcionalidades fossem entregues com qualidade.",
 
     skillsTitle: "cat ~/skills-and-contact.json",
     skillsSubtitle: "// Habilidades Técnicas",
